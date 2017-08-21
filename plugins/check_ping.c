@@ -36,9 +36,11 @@ const char *email = "devel@nagios-plugins.org";
 #include "netutils.h"
 #include "popen.h"
 #include "utils.h"
+#include "rename.h" // lcarlon
 
 #define WARN_DUPLICATES "DUPLICATES FOUND! "
 #define UNKNOWN_TRIP_TIME -1.0	/* -1 seconds */
+
 
 enum {
 	UNKNOWN_PACKET_LOSS = 200,    /* 200% */

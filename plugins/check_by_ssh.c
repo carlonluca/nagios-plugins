@@ -34,6 +34,7 @@ const char *email = "devel@nagios-plugins.org";
 #include "utils.h"
 #include "netutils.h"
 #include "utils_cmd.h"
+#include "rename.h" // lcarlon
 
 #ifndef NP_MAXARGS
 #define NP_MAXARGS 1024

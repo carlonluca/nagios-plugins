@@ -32,6 +32,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include "../plugins/rename.h" // lcarlon
 
 #define np_free(ptr) { if(ptr) { free(ptr); ptr = NULL; } }
 

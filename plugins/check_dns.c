@@ -44,6 +44,7 @@ const char *email = "devel@nagios-plugins.org";
 #include "utils_base.h"
 #include "netutils.h"
 #include "runcmd.h"
+#include "rename.h" // lcarlon
 
 int process_arguments (int, char **);
 int validate_arguments (void);
